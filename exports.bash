@@ -6,6 +6,7 @@ export EDITOR=/bin/nano
 
 export LESS='-R'
 export LESSOPEN='|~/.lessfilter %s'
+export LS_COLORS=$LS_COLORS:'ow=1;34:'
 
 export LESS_TERMCAP_mb=$'\E[1;31m'     # begin blink
 export LESS_TERMCAP_md=$'\E[1;36m'     # begin bold
