@@ -102,10 +102,10 @@ fi
 set bell-style none
 
 #Load files
-[ -f ~/.bash/exports.bash ] && source ~/.bash/exports.bash
-[ -f ~/.bash/aliases.bash ] && source ~/.bash/aliases.bash
-[ -f ~/.bash/functions.bash ] && source ~/.bash/functions.bash
-[ -f ~/.bash/starship.bash ] && source ~/.bash/starship.bash
+[ -f ~/dotfiles/exports.bash ] && source ~/dotfiles/exports.bash
+[ -f ~/dotfiles/aliases.bash ] && source ~/dotfiles/aliases.bash
+[ -f ~/dotfiles/functions.bash ] && source ~/dotfiles/functions.bash
+[ -f ~/dotfiles/starship.bash ] && source ~/dotfiles/starship.bash
 
 # make sure ssh-agent is running
 if [ -z "$SSH_AUTH_SOCK" ] ; then
