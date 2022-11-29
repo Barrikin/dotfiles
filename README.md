@@ -10,15 +10,3 @@ cd dotfiles
 ```
 ./install.sh
 ```
-
-# Uninstallation
-
-### Change to dotfiles folder
-```
-cd ~/dotfiles
-```
-
-### Run uninstaller
-```
-./uninstall.sh
-```
