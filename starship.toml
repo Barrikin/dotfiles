@@ -74,6 +74,10 @@ staged = '[⏩\($count\)](green)'
 [cmd_duration]
 format = '\[[🕑$duration]($style)\]'
 
+[package]
+display_private = true
+format = "via [🎁 $version](208 bold) "
+
 [kubernetes]
 format = 'via [ﴱ $context\($namespace\)](bold purple) '
 disabled = false
@@ -90,4 +94,22 @@ disabled = true
 
 [ruby]
 format = "via [ $version]($style) "
+disabled = true
+
+[perl]
+disabled = true
+
+[java]
+disabled = true
+
+[php]
+disabled = true
+
+[rust]
+disabled = true
+
+[cmake]
+disabled = true
+
+[c]
 disabled = true
