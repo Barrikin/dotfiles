@@ -16,5 +16,5 @@ alias dc='cd'
 alias _='sudo'
 
 #OSINT tools
-alias igdown='~/.local/bin/instaloader +~/OSINT-TOOLS/Instagram/args.txt'
-alias igcount='python3 ~/OSINT-TOOLS/Instagram/instagram.py && find .  -type f | grep -o ".[^.]\+$" | sort | uniq -c >> counts.txt'
+alias igdown='$HOME/.local/bin/instaloader +$HOME/OSINT-TOOLS/Instagram/args.txt'
+alias igcount='python3 $HOME/OSINT-TOOLS/Instagram/instagram.py && find .  -type f | grep -o ".[^.]\+$" | sort | uniq -c >> counts.txt'
